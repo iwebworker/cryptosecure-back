@@ -11,7 +11,14 @@ ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 
-CSRF_TRUSTED_ORIGINS = ['http://*', 'https://*']
+CSRF_TRUSTED_ORIGINS = [
+    'https://api.cryptosecure.website',
+]
+
+CORS_ALLOWED_ORIGINS = [
+    'https://api.cryptosecure.website',
+    'https://cryptosecure.website',
+]
 CSRF_COOKIE_SECURE = False
 
 CORS_ALLOW_METHODS = [
