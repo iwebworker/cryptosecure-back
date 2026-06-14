@@ -13,11 +13,16 @@ CORS_ALLOW_CREDENTIALS = True
 
 CSRF_TRUSTED_ORIGINS = [
     'https://api.cryptosecure.website',
+    'https://cryptosecure.website',
+    'https://iwebworker-cryptosecure-front-cc18.twc1.net',
+    'https://iwebworker-cryptosecure-back-a3d9.twc1.net'
 ]
 
 CORS_ALLOWED_ORIGINS = [
     'https://api.cryptosecure.website',
     'https://cryptosecure.website',
+    'https://iwebworker-cryptosecure-front-cc18.twc1.net',
+    'https://iwebworker-cryptosecure-back-a3d9.twc1.net'
 ]
 CSRF_COOKIE_SECURE = False
 
